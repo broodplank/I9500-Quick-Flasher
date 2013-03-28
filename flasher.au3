@@ -6,7 +6,7 @@
 #AutoIt3Wrapper_Compression=0
 #AutoIt3Wrapper_UseUpx=n
 #AutoIt3Wrapper_UseX64=y
-#AutoIt3Wrapper_Res_Description=©2012 broodplank.net
+#AutoIt3Wrapper_Res_Description=ï¿½2013 broodplank.net
 #AutoIt3Wrapper_Res_Fileversion=0.1.4.0
 #AutoIt3Wrapper_Res_requestedExecutionLevel=asInvoker
 #AutoIt3Wrapper_Run_Tidy=y
@@ -33,8 +33,8 @@ Opt("GUICloseonEsc", 0)
 
 
 ;Static paths!
-FileInstall("Z:/media/Projects/n9400/img/bar.jpg", @TempDir & "/bar.jpg", 1)
-FileInstall("Z:/media/Projects/n9400/img/barv.jpg", @TempDir & "/barv.jpg", 1)
+FileInstall("E:/android/i9500/img/bar.jpg", @TempDir & "/bar.jpg", 1)
+FileInstall("E:/android/i9500/img/barv.jpg", @TempDir & "/barv.jpg", 1)
 
 
 ;Create GUI
@@ -104,7 +104,7 @@ GUICtrlCreatePic(@TempDir & "/bar.jpg", 0, 518, 300, 1)
 GUICtrlCreatePic(@TempDir & "/bar.jpg", 300, 518, 300, 1)
 
 
-$copyright = GUICtrlCreateLabel("©2013 broodplank.net - Use with caution! I am not responsible for damage done to your device.", 5, 520)
+$copyright = GUICtrlCreateLabel("ï¿½2013 broodplank.net - Use with caution! I am not responsible for damage done to your device.", 5, 520)
 GUICtrlSetStyle($copyright, $WS_DISABLED)
 
 GUICtrlSetState($start, $GUI_DISABLE)
